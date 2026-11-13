@@ -69,3 +69,6 @@ User requested saving all progress and pushing the code to https://github.com/Ba
 Phases 0, 1 and 2 are complete. Phase 3 has NOT been approved or started. Resume by reading AGENTS.md and this document, then obtain approval for Phase 3.
 Original user-provided gavva images are archived unchanged in docs/references/gavva-orientations.png, gavva-closed.png and gavva-open.png so the references survive outside this computer. They are not bundled app assets; animation implementation remains Phase 4.
 Source, tests, Android project configuration, dependency lockfile and documentation are included in version control. Generated build outputs, local SDK paths, caches and signing keys are excluded. Existing test evidence remains valid; only documentation/reference archival changed after verification.
+
+## README presentation update — 2026-11-13
+At the user's request, README now contains only an app introduction, Flutter/Dart identification and planned features. Milestones, device test details and setup commands remain in docs. No application code changed and Phase 3 remains unapproved. GitHub language statistics identify source languages (Dart/Kotlin), while Flutter is the framework.

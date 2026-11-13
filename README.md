@@ -1,31 +1,18 @@
 # Ashta Chemma (అష్టా చెమ్మా)
 
-Android-first traditional 5×5 board game for 2–4 players, using four cowrie shells and four pawns per player. The project currently contains the Flutter Android starter and planning documents.
+**Built with Flutter and Dart · Android**
 
-## Planned modes
-- Pass & Play: friends share one phone; no network required.
-- Offline Multiplayer: separate phones share local Wi-Fi or a hotspot; no internet required.
-- Online Multiplayer: friends connect over the internet through an authoritative server.
+A mobile adaptation of the traditional Telugu board game, designed for friends and family to play together on a 5×5 board with four cowrie shells (గవ్వలు).
 
-Offline and Pass & Play must remain independent of the online backend. The current project contains only Ashta Chemma. Other games are future work requiring separate approval.
+## Planned game features
 
-## Read in this order
-1. [Build plan](docs/BUILD_PLAN.md): phases, learning goals, and acceptance tests.
-2. [Architecture](docs/ARCHITECTURE.md): how the parts will work together.
-3. [Rules](docs/ASHTA_CHEMMA_RULES.md): confirmed choices and open questions.
-4. [Progress](docs/PROGRESS.md): what is done and what needs review.
+- **2–4 players**, with four pawns per player.
+- **Pass & Play** — share one phone without Wi-Fi or internet.
+- **Offline Multiplayer** — connect separate phones through local Wi-Fi or a hotspot without mobile data.
+- **Online Multiplayer** — play with distant friends in private rooms.
+- **Cowrie shell rolls** — animated gavvalu with Ashta (8) and Chemma (4) results.
+- **Traditional gameplay** — player-specific paths, safe squares, captures, extra turns, and a centre finish, using a confirmed rules profile.
+- **Rematches and results** — start another match with your group.
+- **Telugu and English** — planned language support, with sound and optional vibration.
 
-## Current milestone
-Phases 1 and 2 are complete. The user verified two-phone messaging without internet and recovery after Wi-Fi loss, host restart, and a wrong port on RMX3771 and Vivo T4 5G, both Android 15. Read [the network test guide](docs/NETWORK_TEST.md) for evidence and repeatable steps. No game code exists yet.
-
-## Review instructions
-Phase 3 — Ashta Chemma Rules Finalization — awaits explicit approval. The user's selected gavva animation image references are recorded in the progress document for Phase 4.
-
-## Future command location
-To work with the app, open PowerShell and enter:
-
-```powershell
-Set-Location 'C:\Users\badri\Downloads\Offline Games APP\ashta_chemma'
-```
-
-Checks include `dart format lib test` (consistent code layout), `flutter analyze` (find code problems), `flutter test` (automated checks), and `flutter run` (launch on a selected phone).
+*The app is under development. The features above describe the intended game.*
